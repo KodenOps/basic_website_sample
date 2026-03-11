@@ -1,0 +1,121 @@
+<!-- Your task here is to look for TODO and ensure you do them accordingly to earn full marks -->
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<style>
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				font-family: Arial, sans-serif;
+				margin: 0;
+				padding: 20px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+				width: 100%;
+				/* TODO: change the #00FFFF to any color you want your page background to be */
+				background-color: #00ffff;
+				position: relative;
+				overflow: hidden;
+			}
+			body h3 {
+				position: absolute;
+				top: 20px;
+				left: 20px;
+				text-decoration: underline;
+				color: #333;
+				font-weight: monospace;
+			}
+			section {
+				background-color: white;
+				border-radius: 10px;
+				height: 300px;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+				width: 350px;
+			}
+			.top {
+				display: flex;
+				align-items: center;
+				width: 100%;
+				background-color: #333;
+				border-radius: 10px 10px 0 0;
+				color: whitesmoke;
+			}
+			.top img {
+				width: 80px;
+				height: 80px;
+				border-radius: 50%;
+				margin: 20px;
+				object-fit: cover;
+				border: 2px solid white;
+			}
+			.top h4 {
+				font-weight: bold;
+				font-size: 22px;
+				margin: 0 0 5px 0;
+			}
+			.top h4 span {
+				text-transform: uppercase;
+			}
+			.top p {
+				margin: 0;
+				font-size: 14px;
+			}
+			.top .email {
+				color: #ccc;
+				font-size: 16px;
+				font-style: italic;
+			}
+			.top .office {
+				color: #b0b1f4;
+				font-size: 14px;
+				margin-top: 5px;
+			}
+			.bottom {
+				padding: 20px;
+				line-height: 24px;
+				color: #555;
+				font-size: 14px;
+				text-align: justify;
+			}
+			.bottom h4 {
+				margin-bottom: 10px;
+				color: #333;
+			}
+		</style>
+		<title>MyID</title>
+	</head>
+	<body>
+		<h3>Project 1</h3>
+		<section>
+			<div class="top">
+				<!-- TODO: Delete the lumi.png and add your own image. Then you can reference it in the src -->
+				<img
+					src="lumi.png"
+					alt="user avatar" />
+				<div class="user_detail">
+					<!-- TODO: edit the details here with yours -->
+					<h4><span>John</span> Doe</h4>
+					<p class="email">john.doe@example.com</p>
+					<p class="office">Office Location: New York</p>
+				</div>
+			</div>
+			<div class="bottom">
+				<h4>About Me</h4>
+				<p
+					>I am a software developer passionate about creating innovative
+					solutions. I enjoy working with modern technologies and solving
+					complex problems.</p
+				>
+			</div>
+		</section>
+	</body>
+</html>
